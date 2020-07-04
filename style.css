@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+body{
+	margin: 0;
+}
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1{
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	transition: 0.4s;
+}
+#nav{
+	font-family: 'Montserrat', sans-serif;
+}
+.homered{
+	background-color: red;
+	padding: 30px 10px 21px 10px;
+	border-radius: 4%;
+}
+.divider{
+	background-color: red;
+	height: 5px;
+}
+.homeblack:hover{
+	background-color: rgba(0,0,255,0.30);
+	padding: 30px 10px 16px 10px;
+	border-radius: 4%;
+	transition: 0.4s
+}
+.image1{
+	background-image: url(krn.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.icon{
+	display: inline;
+	top: 5%;
+	left: 93%;
+	float: right;
+	padding: 20px;
+}
+.icon a{
+	display: inline-flex;
+	margin-right: 7px;
+	width: 26px;
+	height: 26px;
+	background: #F8F8FF;
+	color: #808080;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	transition: 0.4s;
+	font-size: 15px;
+}
+.facebook:hover{
+	background: #1A237E;
+	color: white;
+	border-radius: 0%;
+	transform: scale(1.6);
+}
+.instagram:hover{
+	background: #D81B60;
+	color: white;
+	border-radius: 0%;
+	transform: scale(1.6);
+}
+.twitter:hover{
+	background: #42A5F5;
+	color: white;
+	border-radius: 0%;
+	transform: scale(1.6);
+}
+.icon a:hover > i{
+	transform: scale(1.6);
+}
